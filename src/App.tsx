@@ -1,8 +1,8 @@
+import { VFC } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
+const App: VFC = () => (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -10,7 +10,6 @@ function App() {
         <p>MERTE is the personal carte for mental patient.</p>
       </header>
     </div>
-  );
-}
+);
 
 export default App;
